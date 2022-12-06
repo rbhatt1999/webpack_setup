@@ -24,12 +24,12 @@ module.exports = {
   devtool: 'source-map',
   devServer: {
     static: {
-      directory: path.resolve(__dirname,'dist'),
+      directory: path.resolve(__dirname, 'dist'),
     },
     open: true,
     hot: true,
     compress: true,
-    port:5000,
+    port: 5000,
   },
   plugins: [
     new HtmlWebpackPlugin({
